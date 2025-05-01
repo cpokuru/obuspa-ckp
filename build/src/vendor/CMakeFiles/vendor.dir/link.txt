@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvendor.a CMakeFiles/vendor.dir/vendor.c.o CMakeFiles/vendor.dir/vendor_factory_reset_example.c.o
+/usr/bin/ranlib libvendor.a

@@ -1,0 +1,27 @@
+#!/bin/bash
+# Clone and build the OB-USP-Agent
+git clone https://github.com/BroadbandForum/obuspa.git
+cd obuspa
+
+# Install dependencies (Ubuntu/Debian example)
+sudo apt-get update
+sudo apt-get install -y build-essential git cmake libssl-dev libcurl4-openssl-dev libsqlite3-dev libmosquitto-dev libcoap-dev
+
+# Build the agent
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+
+# Return to original directory
+cd ../..
+
+ 56  sudo apt install zlib1g
+   57  sudo apt install zlib1g-dev
+   58  cd build/
+   59  cmake ..
+   60  sudp apt install pkg-config
+   61  sudo apt install pkg-config
+   62  cmake ..
+   63  sudo apt install libwebsockets-dev

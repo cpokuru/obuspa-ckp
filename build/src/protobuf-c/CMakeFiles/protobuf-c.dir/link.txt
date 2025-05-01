@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprotobuf-c.a "CMakeFiles/protobuf-c.dir/usp-msg.pb-c.c.o" "CMakeFiles/protobuf-c.dir/usp-record.pb-c.c.o" "CMakeFiles/protobuf-c.dir/protobuf-c.c.o"
+/usr/bin/ranlib libprotobuf-c.a
